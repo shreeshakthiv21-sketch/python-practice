@@ -1,0 +1,8 @@
+name=input('Enter your name:')
+age= input('Enter your age:')
+city=input('Enter your city:')
+print()
+print('--<Profile>--')
+print('name: {}'.format(name))
+print("age:", age)
+print(name, "lives in" ,city)
