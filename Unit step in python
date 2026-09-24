@@ -1,0 +1,15 @@
+import numpy as np
+import matplotlib.pyplot as plt
+t = np.arange(-10,10.01,0.01)
+u = np.zeros(len(t))
+
+for i in range(len(t)):
+   if t[i]>=0:
+     u[i]=1
+   else:
+     u[i]=0
+
+plt.figure(1)
+plt.plot(t,u)
+plt.axis([-10,10,0.5,1.5])
+plt.show()
